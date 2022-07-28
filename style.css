@@ -13,23 +13,30 @@ body {
 	font-family: 'League Spartan', sans-serif;
 }
 
-
 .card {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    padding: 2rem;
-    width: 30rem;
-    height: 20rem;
-    background-color: hsl(217, 19%, 24%);
+    position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	padding: 2rem;
+	width: 28rem;
+	height: 18rem;
+	background-color: hsl(217, 19%, 24%);
+	border-radius: 1rem;
 }
 
-.card-pattern {
-
+.card-circle {
+    position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3.5rem;
+	height: 3.5rem;
+    bottom: -1.5rem;
+	background-color: hsl(150, 100%, 66%);
+	border-radius: 50%;
 }
-
-.
 
 footer {
 	position: absolute;
