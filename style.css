@@ -10,7 +10,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	background-color: hsl(218, 23%, 16%);
-	font-family: 'League Spartan', sans-serif;
+	font-family: 'Manrope', sans-serif;
 }
 
 .card {
@@ -19,11 +19,25 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	flex-direction: column;
-	padding: 2rem;
+	padding: 2.5rem;
 	width: 28rem;
 	height: 18rem;
 	background-color: hsl(217, 19%, 24%);
 	border-radius: 1rem;
+}
+
+.advice-number{
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);;
+    font-size: 10px;
+    letter-spacing: 5px;
+
+}
+
+.advice {
+    font-size: 28px;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
 }
 
 .card-circle {
@@ -36,6 +50,11 @@ body {
     bottom: -1.5rem;
 	background-color: hsl(150, 100%, 66%);
 	border-radius: 50%;
+}
+.card-pattern {
+    width: 95%;
+    margin-bottom: 1.5rem;
+
 }
 
 footer {
