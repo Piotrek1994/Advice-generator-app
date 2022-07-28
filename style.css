@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: hsl(218, 23%, 16%);
+	font-family: 'League Spartan', sans-serif;
+}
+
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    width: 30rem;
+    height: 20rem;
+    background-color: hsl(217, 19%, 24%);
+}
+
+.card-pattern {
+
+}
+
+.
+
+footer {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+}
