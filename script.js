@@ -8,7 +8,10 @@ btn.addEventListener('click', () => {
 	console.log('ok')
 	fetch(URL)
 		.then(res => res.json())
-		.then(data => advice.innerHTML = data.slip.advice, {(data => id.innerHTML = data.slip.id)})
+		.then((data) => {
+			const adv = advice.innerHTML = data.slip.advice;
+			const id2 = id.innerHTML = data.slip.id
+		})
 		.catch(error => console.log(error))
 })
 
