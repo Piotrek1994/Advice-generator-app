@@ -7,6 +7,7 @@ btn.addEventListener('click', () => {
 	console.log('ok')
 	fetch(URL)
 		.then(res => res.json())
-		.then(data => data.slip.advice)
+		.then(data => advice.innerHTML = data.slip.advice)
 		.catch(error => console.log(error))
 })
+
